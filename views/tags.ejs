@@ -1,0 +1,9 @@
+<%- include header %>
+    <%if(tags && tags[0]) {%>
+    <% tags.forEach(function (tag, index) { %>
+    <a class="tag" href="/tags/<%= tag %>"><%= tag %></a>
+    <% }) %>
+    <%} else {%>
+        <p>还没有带标签的博客，快去发布一篇带标签的博客吧。。。</p>
+    <%}%>
+<%- include footer %>
