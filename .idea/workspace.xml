@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eaa880d4-6cb2-4363-a0fc-7433194fd04b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/search.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/links.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/header.ejs" afterPath="$PROJECT_DIR$/views/header.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/post.js" afterPath="$PROJECT_DIR$/models/post.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/tags.ejs" afterPath="$PROJECT_DIR$/views/tags.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/user.ejs" afterPath="$PROJECT_DIR$/views/user.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blog.iws" />
@@ -36,16 +31,27 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="197" column="43" selection-start="6745" selection-end="6745" vertical-scroll-proportion="0.0" vertical-offset="2726" max-vertical-offset="5355">
+            <state line="343" column="7" selection-start="11842" selection-end="11842" vertical-scroll-proportion="0.0" vertical-offset="4828" max-vertical-offset="5490">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.ejs" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="links.ejs" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/links.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="90" selection-start="284" selection-end="284" vertical-scroll-proportion="0.091836736" vertical-offset="0" max-vertical-offset="490">
+              <folding>
+                <element signature="e#26#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/search.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="40" selection-start="533" selection-end="533" vertical-scroll-proportion="0.35785288" vertical-offset="0" max-vertical-offset="503">
+            <state line="12" column="40" selection-start="533" selection-end="533" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="315">
               <folding />
             </state>
           </provider>
@@ -54,13 +60,8 @@
       <file leaf-file-name="header.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/header.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="132" selection-start="833" selection-end="833" vertical-scroll-proportion="-15.125" vertical-offset="12" max-vertical-offset="600">
-              <folding>
-                <marker date="1388375380000" expanded="true" signature="387:567" placeholder="{...}" />
-                <marker date="1388375380000" expanded="true" signature="573:697" placeholder="{...}" />
-                <marker date="1388375380000" expanded="true" signature="872:915" placeholder="{...}" />
-                <marker date="1388375380000" expanded="true" signature="937:975" placeholder="{...}" />
-              </folding>
+            <state line="17" column="56" selection-start="426" selection-end="426" vertical-scroll-proportion="-10.0" vertical-offset="15" max-vertical-offset="615">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,19 +111,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tags.ejs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/tags.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="43" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="375">
+            <state line="7" column="43" selection-start="335" selection-end="335" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
@@ -147,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/views/comment.ejs" />
         <option value="$PROJECT_DIR$/views/paging.ejs" />
         <option value="$PROJECT_DIR$/views/archive.ejs" />
         <option value="$PROJECT_DIR$/views/post.ejs" />
@@ -158,11 +149,12 @@
         <option value="$PROJECT_DIR$/views/tags.ejs" />
         <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/views/user.ejs" />
-        <option value="$PROJECT_DIR$/views/header.ejs" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
         <option value="$PROJECT_DIR$/models/post.js" />
-        <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/views/search.ejs" />
+        <option value="$PROJECT_DIR$/views/header.ejs" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/views/links.ejs" />
       </list>
     </option>
   </component>
@@ -421,11 +413,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/paging.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="264" selection-end="264" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="225" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/archive.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="21" selection-start="434" selection-end="434" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="255">
@@ -466,13 +453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="43" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/user.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="43" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="375">
@@ -494,18 +474,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/header.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="132" selection-start="833" selection-end="833" vertical-scroll-proportion="-15.125" vertical-offset="12" max-vertical-offset="600">
-          <folding>
-            <marker date="1388375380000" expanded="true" signature="387:567" placeholder="{...}" />
-            <marker date="1388375380000" expanded="true" signature="573:697" placeholder="{...}" />
-            <marker date="1388375380000" expanded="true" signature="872:915" placeholder="{...}" />
-            <marker date="1388375380000" expanded="true" signature="937:975" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="75" selection-start="1702" selection-end="1702" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
@@ -520,17 +488,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
+    <entry file="file://$PROJECT_DIR$/views/search.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="197" column="43" selection-start="6745" selection-end="6745" vertical-scroll-proportion="0.0" vertical-offset="2726" max-vertical-offset="5355">
+        <state line="12" column="40" selection-start="533" selection-end="533" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="315">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/search.ejs">
+    <entry file="file://$PROJECT_DIR$/views/header.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="40" selection-start="533" selection-end="533" vertical-scroll-proportion="0.35785288" vertical-offset="0" max-vertical-offset="503">
+        <state line="17" column="56" selection-start="426" selection-end="426" vertical-scroll-proportion="-10.0" vertical-offset="15" max-vertical-offset="615">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="43" selection-start="335" selection-end="335" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="343" column="7" selection-start="11842" selection-end="11842" vertical-scroll-proportion="0.0" vertical-offset="4828" max-vertical-offset="5490">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/links.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="90" selection-start="284" selection-end="284" vertical-scroll-proportion="0.091836736" vertical-offset="0" max-vertical-offset="490">
+          <folding>
+            <element signature="e#26#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
